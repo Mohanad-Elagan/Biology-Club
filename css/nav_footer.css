@@ -1,0 +1,63 @@
+html{
+    scroll-behavior: smooth !important;
+}
+
+/* start navbar section */
+
+.navbar{
+    transition: 0.5s ease-in-out;
+    background: black !important;
+}
+
+a.navbar-brand {color: #fff !important;}
+
+a.navbar-brand p{
+    font-size: 25px;
+    position: relative;
+    top: 7px;
+    font-weight: 300;
+    left: -8px;
+}
+
+a.navbar-brand .logo-title{font-weight: bold; text-transform: uppercase;}
+
+a.navbar-brand .logo-subtitle {
+    font-size: 11px;
+    letter-spacing: 0.6px;
+    padding: 0 2px;
+}
+
+.nav-link{
+    color: #9a999c !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 0.67rem !important;
+}
+
+.nav-link:hover{ border: 3px solid white; color: white !important; margin: 0 3px 0 3px;}
+
+.dropdown-toggle::after{margin-left: 0.15em !important;}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff !important;
+    border: 3px solid white !important;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+#navbarNavDropdown {
+    transition: 0.5s ease-in-out;   
+}
+
+.navbar .dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 97% !important;
+}
+
+.dropdown-item{padding: 0.7rem 2rem;}
+
+.navbar .dropdown-menu svg{margin-right: 5px;}
