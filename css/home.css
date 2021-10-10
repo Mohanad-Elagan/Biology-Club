@@ -6,12 +6,12 @@ body{
 }
 
 .navbar{
-    background: none !important;
+    background: rgba(209, 209, 209, 0.5) !important;
     transition-delay: 1s ease-in-out !important;
 }
 
 .scrolled{
-    background: rgb(19 37 28) !important;
+    background: rgba(19, 37, 28, 0.5) !important;
     display: block;
     position: fixed;
 }

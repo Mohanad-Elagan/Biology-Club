@@ -1,0 +1,32 @@
+.offcanvas-btn {
+    background: none;
+    border: none;
+}
+
+.navbar.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar:not(.scrolled) {
+    position: relative;
+}
+
+.magazines-container .card {
+    height: 400px;
+}
+
+.magazines-container .card img {
+    min-height: 250px;
+}
+
+#magazine-body {
+    background-image: url("../images/magazine-bg.jpg");
+    background-size: cover;
+}
+
+.content {
+    width: 50%;
+    margin-top: 6rem;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
