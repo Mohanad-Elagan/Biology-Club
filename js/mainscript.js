@@ -1,12 +1,12 @@
 /* global $, window */
 
-$(function () {
+$(function() {
 
-////////////////// adjust navbar style on scroll
+    ////////////////// adjust navbar style on scroll
 
     $(window).scroll(function() {
-      
-        if($(this).scrollTop() > 550) { 
+
+        if ($(this).scrollTop() > 550) {
 
             $('.navbar').addClass('scrolled');
 
@@ -16,19 +16,19 @@ $(function () {
 
         }
 
-     });
+    });
 
     ///////////////// copyrights year
 
 
     //w//////////// dropdown nav menu
-    $(".dropdown-toggle").hover(function(){
-      $(this).siblings(".dropdown-menu").toggleClass("show");
-      $(this).parent().toggleClass("show");
+    $(".dropdown-toggle").hover(function() {
+        $(this).siblings(".dropdown-menu").toggleClass("show");
+        $(this).parent().toggleClass("show");
     });
 
-    $(".dropdown-menu").hover(function(){
-      $(this).toggleClass("show");
+    $(".dropdown-menu").hover(function() {
+        $(this).toggleClass("show");
     });
 
     //activate wow js
@@ -36,5 +36,12 @@ $(function () {
 
     //multiple carousels in history
     $('#carouselExampleIndicators, #carouselExampleIndicators2, #carouselExampleIndicators3, #carouselExampleIndicators4, #carouselExampleIndicators5, #carouselExampleIndicators6').carousel();
-                                      
+
+
 });
+
+function scroll_to(id) {
+    $('html, body').animate({
+        scrollTop: $(id).offset().top - 106,
+    }, 1000);
+}

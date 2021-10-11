@@ -14,29 +14,159 @@
 </head>
 
 <body id="magazine-body">
-        <div class="content mx-auto px-4">
-            <div class="container py-3">
-                <h1 class="">Evolution</h1>
-                <p class="small text-muted">1st Edition</p>
-                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iure delectus impedit pariatur repellendus, rerum aspernatur quod nostrum temporibus necessitatibus molestias amet perferendis suscipit obcaecati a, iste fugiat odio
-                    provident est, velit illo totam. Autem optio error harum enim a atque ad laboriosam. Ea, consequatur earum quis eius, perferendis nobis sunt fugiat rerum, accusamus aspernatur esse adipisci. Blanditiis, voluptas nam! Fugiat eligendi
-                    pariatur perferendis fugit omnis nihil aperiam aliquam explicabo, similique assumenda suscipit? Voluptatum architecto qui tempore, ullam minus nostrum cupiditate alias quam temporibus? Temporibus atque quam dolorum porro quidem sapiente
-                    aliquam optio perspiciatis veniam, nam officiis dignissimos explicabo sint officia et. Consequuntur ratione impedit, quaerat aut dicta sapiente perferendis commodi necessitatibus iusto facere enim sit voluptas ducimus non quae dignissimos
-                    tempora, minus praesentium quis tempore numquam minima fugiat cumque assumenda. Culpa eligendi ea nesciunt nulla veniam dolores cum cupiditate rerum, maxime magni possimus accusamus eaque ratione? Omnis necessitatibus, qui corporis
-                    iusto, dolorem vitae architecto explicabo dignissimos assumenda eveniet repellendus laboriosam quam quod animi molestias sapiente consequuntur, aliquam debitis amet commodi quisquam voluptatum a praesentium. Quibusdam quod earum omnis,
-                    quisquam officiis in reiciendis architecto sit maiores labore, quia, dolorum incidunt laboriosam! Incidunt cumque natus repellendus? Cum, doloribus quod? Provident magnam beatae deleniti officia labore quidem minus blanditiis. Officiis
-                    quos beatae quia distinctio non inventore rem ea ducimus quas quam cumque itaque architecto reprehenderit iure aliquid nobis totam repudiandae velit sunt debitis, dolor reiciendis? Dignissimos, facilis? Accusantium dolores eligendi
-                    eveniet aspernatur, in, eius esse facere incidunt, voluptate quidem tempore natus. Itaque dolor voluptatum repudiandae expedita ullam eligendi enim vitae molestiae corporis optio quas veritatis illum, quidem qui quaerat officia numquam
-                    eum sunt fuga dolores sed explicabo incidunt consequatur. Quam, magni nam! Illo corporis tempore sapiente assumenda ullam. Atque ipsam sequi, maiores quo distinctio corporis quaerat sunt quia officiis ex reprehenderit rem et est dolorum
-                    non deserunt, perferendis praesentium, a consequuntur tempore. Natus, molestias, optio ipsam nihil culpa inventore asperiores aliquam debitis, ratione tempore hic voluptas. Magni ratione quam optio, error adipisci quidem hic, rem minus
-                    animi eligendi odio ut laudantium dolorum modi enim dicta dolor delectus, eos nihil debitis reprehenderit omnis nam? Nam quisquam necessitatibus placeat molestias magni quaerat, laudantium delectus impedit repudiandae repellendus nulla
-                    veritatis est vero voluptatibus similique aspernatur velit, rerum in et cum. Nobis quod esse necessitatibus impedit itaque minus eligendi aspernatur possimus magnam neque reprehenderit id culpa omnis, maxime molestias maiores temporibus
-                    velit dolorum sit iusto adipisci. Beatae nemo similique debitis ad, aut ratione laboriosam inventore totam repellendus nulla iusto alias dolores! Repellendus accusantium ratione itaque debitis quasi fugit nihil ipsam exercitationem!
-                    Quis reiciendis alias molestias cum? Amet qui dolor, fuga quis veritatis unde voluptas, voluptatibus labore eveniet in, sunt repudiandae hic autem vitae sed? Tenetur vel magni perferendis alias fugit quod rerum odit dolor cum consequuntur
-                    culpa obcaecati est quos harum facere molestiae vitae fuga, pariatur praesentium ab nobis id esse voluptas! Quidem, provident voluptas! Reiciendis, iste praesentium ipsa tempora possimus error veritatis molestias rerum perspiciatis
-                    facilis, totam quae ipsum deserunt. Delectus sequi vel veritatis architecto.</p>
+
+    <!-- start navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="../../../images/academy-logo.png" width="70" height="80" class="d-inline-block align-top" alt="Team logo">
+                <p class="d-inline-block">
+                    <span class="d-block logo-title">STEM Biology Academy</span>
+                    <span class="d-block logo-subtitle">el president gamed</span>
+                </p>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../../index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../../index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../magazines_home.html">Magazines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../../index.html" onclick="scroll_to('#group')">our Group</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="offcanvas-btn nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Courses</button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../../index.html#footer">Contact Us</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+
+    <!-- offcanvas -->
+    <section>
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <h3 id="offcanvasTopLabel">Courses</h3>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4 class="course-grade">
+                                10-th Grade
+                            </h4>
+                            <a href="#" class="not-published">LO1: Cell theory and disease.</a><br>
+                            <a href="#" class="not-published">LO2: Eukaryotes and prokaryotic cells.</a><br>
+                            <a href="#" class="not-published">LO3: Cell Membrane.</a><br>
+                            <a href="#" class="not-published">LO4: DNA and RNA structure.</a><br>
+                            <a href="#" class="not-published">LO5: Proteins and enzymes.</a><br>
+                            <a href="#" class="not-published">LO6: Cell growth and division.</a><br>
+                            <a href="#" class="not-published">LO7: Stem cells.</a><br>
+                            <a href="#" class="not-published">LO8: Malaria, sickle cell anemia, TB, diabetes, cancer, and HIV diseases.</a><br>
+                            <a href="#" class="not-published"></a><br>
+                            <a href="#" class="not-published">LO9: Plant tissues.</a><br>
+                            <a href="#" class="not-published">LO10: Photosynthesis and cellular respiration processes.</a><br>
+                            <a href="#" class="not-published">LO11: Factors Affecting Photosynthesis and cellular respiration processes.</a><br>
+                            <a href="#" class="not-published">LO12: Ecological biodiversity.</a><br>
+                            <a href="#" class="not-published">LO13: Carbon cycle.</a><br>
+                            <a href="#" class="not-published">LO14: Ecosystem</a><br>
+                            <a href="#" class="not-published">LO15: Restoration of ecosystems</a><br>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="course-grade">
+                                11-th Grade
+                            </h4>
+                            <a href="#" class="not-published">LO1: Genetically modified organisms.
+                      </a><br>
+                            <a href="#" class="not-published">LO2: Bacterial transformation.
+                      </a><br>
+                            <a href="#" class="not-published">LO3: DNA, RNA and protein synthesis.
+                      </a><br>
+                            <a href="#" class="not-published">LO4: DNA construction and manipulation.
+                      </a><br>
+                            <a href="#" class="not-published">LO5: Genotypes and Phenotypes.
+                      </a><br>
+                            <a href="#" class="not-published">LO6: Genes and chromosomes.
+                      </a><br>
+                            <a href="#" class="not-published">LO7: Genomics and biodiversity.
+                      </a><br>
+                            <a href="#" class="not-published">LO8: Male and female reproductive structures.
+                      </a><br>
+                            <a href="#" class="not-published">LO9: Spermatogenesis and oogenesis.
+                      </a><br>
+                            <a href="#" class="not-published">LO10: Darwin and evolution.
+                      </a><br>
+                            <a href="#" class="not-published">LO11: Common ancestry and evolution evidence.
+                      </a><br>
+                            <a href="#" class="not-published">LO12: Speciation and body diversity.
+                      </a><br>
+                            <a href="#" class="not-published">LO13: genetic variation.
+                      </a><br>
+                            <a href="#" class="not-published">LO14: Ecosystem services.
+                      </a><br>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="course-grade">
+                                12-th Grade
+                            </h4>
+                            <a href="#" class="not-published">LO1: Neurons.
+                      </a><br>
+                            <a href="#" class="not-published">LO2: Nerve impulse.
+                      </a><br>
+                            <a href="#" class="not-published">LO3: Brain regions.
+                      </a><br>
+                            <a href="#" class="not-published">LO4: Parts of the nervous system.
+                      </a><br>
+                            <a href="#" class="not-published">LO5: Muscular system.
+                      </a><br>
+                            <a href="#" class="not-published">LO6: Skeletal system.
+                      </a><br>
+                            <a href="#" class="not-published">LO7: Cell communication.
+                      </a><br>
+                            <a href="#" class="not-published">LO8: Role of hormones in maintaining homeostasis.
+                      </a><br>
+                            <a href="#" class="not-published">LO9: Human digestive system.
+                      </a><br>
+                            <a href="#" class="not-published">LO10: Disorders of digestive system.
+                      </a><br>
+                            <a href="#" class="not-published">LO11: Excretory system.
+                      </a><br>
+                            <a href="#" class="not-published">LO12: The role of excretory system in maintaining homeostasis.
+                      </a><br>
+                            <a href="#" class="not-published">LO13: Circulatory and respiratory systems.
+                      </a><br>
+                            <a href="#" class="not-published">LO14: The pathway of a molecule of oxygen in the body.
+                      </a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="content mx-auto px-4">
+        <div class="container py-3">
+            <h1 class="">Evolution</h1>
+            <p class="small text-muted">1st Edition</p>
+            <iframe src="https://drive.google.com/file/d/1rTD0d-RMeH0TTDYdJYNo1s7nRDurwvzZ/preview" allow="autoplay"></iframe>
+        </div>
+    </div>
     </div>
 
     <!-- js files-->

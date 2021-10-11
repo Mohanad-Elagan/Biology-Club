@@ -1,17 +1,20 @@
-html{
+html {
     scroll-behavior: smooth !important;
 }
 
+
 /* start navbar section */
 
-.navbar{
+.navbar {
     transition: 0.5s ease-in-out;
     background: black !important;
 }
 
-a.navbar-brand {color: #fff !important;}
+a.navbar-brand {
+    color: #fff !important;
+}
 
-a.navbar-brand p{
+a.navbar-brand p {
     font-size: 25px;
     position: relative;
     top: 7px;
@@ -19,7 +22,10 @@ a.navbar-brand p{
     left: -8px;
 }
 
-a.navbar-brand .logo-title{font-weight: bold; text-transform: uppercase;}
+a.navbar-brand .logo-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 a.navbar-brand .logo-subtitle {
     font-size: 11px;
@@ -27,22 +33,30 @@ a.navbar-brand .logo-subtitle {
     padding: 0 2px;
 }
 
-.nav-link{
-    color: black;
+.nav-link {
+    color: white !important;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 16px;
     padding-left: 0.67rem !important;
 }
 
-.nav-link:hover{ border: 3px solid white; color: white !important; margin: 0 3px 0 3px;}
+.nav-link:hover {
+    border: 3px solid white;
+    color: white !important;
+    margin: 0 3px 0 3px;
+}
 
-.dropdown-toggle::after{margin-left: 0.15em !important;}
+.dropdown-toggle::after {
+    margin-left: 0.15em !important;
+}
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #fff !important;
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white !important;
     border: 3px solid white !important;
-
 }
 
 .navbar-toggler-icon {
@@ -50,14 +64,38 @@ a.navbar-brand .logo-subtitle {
 }
 
 #navbarNavDropdown {
-    transition: 0.5s ease-in-out;   
+    transition: 0.5s ease-in-out;
 }
 
-.navbar .dropdown-menu{
+.navbar .dropdown-menu {
     background-color: rgba(255, 255, 255, 0.8);
     top: 97% !important;
 }
 
-.dropdown-item{padding: 0.7rem 2rem;}
+.dropdown-item {
+    padding: 0.7rem 2rem;
+}
 
-.navbar .dropdown-menu svg{margin-right: 5px;}
+.navbar .dropdown-menu svg {
+    margin-right: 5px;
+}
+
+/* OFFCANVAS */
+
+.offcanvas-btn {
+    background: none;
+    border: none;
+}
+
+.course-grade {
+    color: #f5772f;
+}
+
+.offcanvas-top {
+    height: 95vh;
+}
+
+.not-published {
+    text-decoration: none;
+    color: #a7a7a7;
+}

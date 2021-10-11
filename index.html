@@ -35,29 +35,30 @@
           </button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#" onclick="scroll_to('#about')">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pages/magazines/magazines_home.html">Magazines</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">our Group</a>
+                        <a class="nav-link" href="#" onclick="scroll_to('#group')">our Group</a>
                     </li>
                     <li class="nav-item">
                         <button class="offcanvas-btn nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Courses</button>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#" onclick="scroll_to('#footer')">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <section class="banner">
         <div class="container">
             <div class="banner-text">
@@ -66,6 +67,7 @@
             <div id="image" data-0="background-size: 100% auto;" data-500="background-size: 130% auto; position: fixed; top:0;" data-501="position: absolute; top: 501px;"></div>
         </div>
     </section>
+
     <section class="about-us" id="about">
         <div class="about-background"></div>
         <div class="container">
@@ -203,7 +205,7 @@
             </div>
         </div>
     </section>
-    <section class="group">
+    <section class="group" id="group">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -272,7 +274,6 @@
                         </ul>
                         <h3 class="current-group-year">2023'</h3>
                         <ul class="members current-members">
-                            <li>Omar Osama</li>
                             <li>Yusuf Yasser</li>
                             <li>Kareem Mohamed</li>
                             <li>Jonathan Maged</li>
@@ -282,7 +283,11 @@
                             <li>Abdelrahman Hatem</li>
                             <li>Shehab Sherif</li>
                             <li>Mohamed Adel</li>
+                            <li>Omar Osama</li>
                             <li>Ahmed Essam</li>
+                            <span class="fw-bold fst-italic">Website Developers</span>
+                            <li>Mohannad Elagan</li>
+                            <li>Mikhael Mounay</li>
                         </ul>
                     </div>
                 </div>
@@ -290,7 +295,7 @@
         </div>
     </section>
     <!--footer-->
-    <footer>
+    <footer id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
@@ -336,14 +341,16 @@
                         &copy; 2011-<span id="year"></span> All Rights reserved | STEM Biology Academy
                     </div>
                 </div>
-                <div class="col-md-6 rights text-right">
+                <div class="col-md-6 rights text-end">
+                    <span>Made By | Mikhael Mounay & Mohannad Elagan</span>
                 </div>
             </div>
         </div>
     </footer>
     <!-- js files-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="js/all.js"></script>
     <script src="js/mainscript.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

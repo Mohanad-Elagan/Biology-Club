@@ -1,8 +1,3 @@
-.offcanvas-btn {
-    background: none;
-    border: none;
-}
-
 .navbar.navbar-light .navbar-nav .nav-link {
     color: white;
 }
@@ -22,11 +17,26 @@
 #magazine-body {
     background-image: url("../images/magazine-bg.jpg");
     background-size: cover;
+    padding-bottom: 3rem;
 }
 
 .content {
     width: 50%;
-    margin-top: 6rem;
+    margin-top: 5rem;
     background-color: rgb(255, 255, 255, 0.7);
     border-radius: 20px;
+}
+
+.content iframe {
+    height: 20cm;
+    width: 100%;
+    padding: 0.25rem 0.25rem 0.5rem;
+    border-radius: 20px;
+}
+
+@media (max-width: 767.98px) {
+    .content {
+        width: 80%;
+        margin-top: 3rem;
+    }
 }

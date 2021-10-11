@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magazines</title>
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <!-- start navbar section -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
 
@@ -29,33 +30,136 @@
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="../../index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="../../index.html#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="pages/magazines/magazines_home.html">Magazines</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">our Group</a>
+                        <a class="nav-link" href="../../index.html" onclick="scroll_to('#group')">our Group</a>
                     </li>
                     <li class="nav-item">
                         <button class="offcanvas-btn nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Courses</button>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="../../index.html#footer">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <!-- offcanvas -->
+    <section>
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <h3 id="offcanvasTopLabel">Courses</h3>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4 class="course-grade">
+                                10-th Grade
+                            </h4>
+                            <a href="#" class="not-published">LO1: Cell theory and disease.</a><br>
+                            <a href="#" class="not-published">LO2: Eukaryotes and prokaryotic cells.</a><br>
+                            <a href="#" class="not-published">LO3: Cell Membrane.</a><br>
+                            <a href="#" class="not-published">LO4: DNA and RNA structure.</a><br>
+                            <a href="#" class="not-published">LO5: Proteins and enzymes.</a><br>
+                            <a href="#" class="not-published">LO6: Cell growth and division.</a><br>
+                            <a href="#" class="not-published">LO7: Stem cells.</a><br>
+                            <a href="#" class="not-published">LO8: Malaria, sickle cell anemia, TB, diabetes, cancer, and HIV diseases.</a><br>
+                            <a href="#" class="not-published"></a><br>
+                            <a href="#" class="not-published">LO9: Plant tissues.</a><br>
+                            <a href="#" class="not-published">LO10: Photosynthesis and cellular respiration processes.</a><br>
+                            <a href="#" class="not-published">LO11: Factors Affecting Photosynthesis and cellular respiration processes.</a><br>
+                            <a href="#" class="not-published">LO12: Ecological biodiversity.</a><br>
+                            <a href="#" class="not-published">LO13: Carbon cycle.</a><br>
+                            <a href="#" class="not-published">LO14: Ecosystem</a><br>
+                            <a href="#" class="not-published">LO15: Restoration of ecosystems</a><br>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="course-grade">
+                                11-th Grade
+                            </h4>
+                            <a href="#" class="not-published">LO1: Genetically modified organisms.
+                      </a><br>
+                            <a href="#" class="not-published">LO2: Bacterial transformation.
+                      </a><br>
+                            <a href="#" class="not-published">LO3: DNA, RNA and protein synthesis.
+                      </a><br>
+                            <a href="#" class="not-published">LO4: DNA construction and manipulation.
+                      </a><br>
+                            <a href="#" class="not-published">LO5: Genotypes and Phenotypes.
+                      </a><br>
+                            <a href="#" class="not-published">LO6: Genes and chromosomes.
+                      </a><br>
+                            <a href="#" class="not-published">LO7: Genomics and biodiversity.
+                      </a><br>
+                            <a href="#" class="not-published">LO8: Male and female reproductive structures.
+                      </a><br>
+                            <a href="#" class="not-published">LO9: Spermatogenesis and oogenesis.
+                      </a><br>
+                            <a href="#" class="not-published">LO10: Darwin and evolution.
+                      </a><br>
+                            <a href="#" class="not-published">LO11: Common ancestry and evolution evidence.
+                      </a><br>
+                            <a href="#" class="not-published">LO12: Speciation and body diversity.
+                      </a><br>
+                            <a href="#" class="not-published">LO13: genetic variation.
+                      </a><br>
+                            <a href="#" class="not-published">LO14: Ecosystem services.
+                      </a><br>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="course-grade">
+                                12-th Grade
+                            </h4>
+                            <a href="#" class="not-published">LO1: Neurons.
+                      </a><br>
+                            <a href="#" class="not-published">LO2: Nerve impulse.
+                      </a><br>
+                            <a href="#" class="not-published">LO3: Brain regions.
+                      </a><br>
+                            <a href="#" class="not-published">LO4: Parts of the nervous system.
+                      </a><br>
+                            <a href="#" class="not-published">LO5: Muscular system.
+                      </a><br>
+                            <a href="#" class="not-published">LO6: Skeletal system.
+                      </a><br>
+                            <a href="#" class="not-published">LO7: Cell communication.
+                      </a><br>
+                            <a href="#" class="not-published">LO8: Role of hormones in maintaining homeostasis.
+                      </a><br>
+                            <a href="#" class="not-published">LO9: Human digestive system.
+                      </a><br>
+                            <a href="#" class="not-published">LO10: Disorders of digestive system.
+                      </a><br>
+                            <a href="#" class="not-published">LO11: Excretory system.
+                      </a><br>
+                            <a href="#" class="not-published">LO12: The role of excretory system in maintaining homeostasis.
+                      </a><br>
+                            <a href="#" class="not-published">LO13: Circulatory and respiratory systems.
+                      </a><br>
+                            <a href="#" class="not-published">LO14: The pathway of a molecule of oxygen in the body.
+                      </a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div class="magazines-container py-5 my-5">
         <div class="container-md">
